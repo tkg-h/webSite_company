@@ -1,7 +1,7 @@
 ## デザイン会社HP
 
 ### リンク
-file:///C:/Desktop/website_company/index.html#
+http://127.0.0.1:5500/index.html
 
 ### 技術
 + CSS
