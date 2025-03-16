@@ -1,0 +1,260 @@
+/* ----------------------------------------全体------------------------------------------- */
+
+body {
+  background-image: url("top-image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  font-family: "Yu Gothic", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* コンテイナー */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* リンク */
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+/* ボタン */
+.btn {
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #8eb8ff;
+  box-shadow: 0 5px 0 #5d99ff;
+  transition: all 0.2s;
+}
+.btn:hover {
+  box-shadow: none;
+  transform: translateY(3px);
+}
+
+/* 見出し */
+h2 {
+  font-weight: bold;
+  font-size: 100px;
+}
+h3 {
+  color: blue;
+  font-size: 40px;
+}
+h4 {
+  font-size: 25px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* ヘッダー */
+header {
+  width: 100%;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 80px;
+}
+.header-logo {
+  font-weight: lighter;
+  font-size: 30px;
+}
+.header-list ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-logo a {
+  color: #333;
+}
+.header-list a {
+  color: #333;
+}
+
+/* キャッチコピー */
+.catchCopy {
+  height: 500px;
+  display: flex;
+}
+
+/* 説明 */
+.introduction {
+  text-align: center;
+  margin-top: 200px;
+}
+.introduction p {
+  font-size: 30px;
+}
+
+/* 実績 */
+.works {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.works-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.works-card img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.works-card__webSite,
+.works-card__wp,
+.works-card__sp {
+  flex: 1;
+}
+
+/* ニュース */
+.news {
+  margin-top: 200px;
+  text-align: center;
+}
+.news-list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.news-list dt {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.news-list dd {
+  padding-left: 20px;
+  margin: 0;
+}
+.label {
+  margin-left: 10px;
+  background-color: #66ccff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/* コンタクト*/
+.contact {
+  margin: 200px auto;
+  text-align: center;
+}
+.contact-wrapper {
+  margin: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#contact-form {
+  width: 75%;
+  margin: 40px auto;
+}
+#contact-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.contact-mail,
+.contact-tel {
+  background-color: #ddd;
+  width: 100%;
+  border-radius: 30px;
+  padding: 20px;
+}
+.contact-tel p {
+  padding-top: 40px;
+}
+.contact-tel p a {
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 700px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.contact textarea {
+  height: 150px;
+}
+
+/* アクセス */
+.access {
+  text-align: center;
+  margin-top: 50px;
+}
+.access p {
+  margin-bottom: 20px;
+}
+.access iframe {
+  width: 80%;
+  height: 400px;
+  border: 0;
+}
+
+/* フッター */
+footer {
+  background-color: #4a4a4a;
+  margin-top: 200px;
+  width: 100%;
+  padding: 10px;
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 50px;
+  color: #fff;
+}
+footer p a {
+  color: #fff;
+  font-size: 25px;
+  margin: 0;
+}
+
+.footer-list ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 300px;
+  font-size: 15px;
+  gap: 70px;
+}
+.footer-list a {
+  color: #fff;
+}
