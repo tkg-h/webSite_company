@@ -1,7 +1,7 @@
 ## デザイン会社HP
 
 ### リンク
-http://127.0.0.1:5500/index.html
+https://tkg-h.github.io/webSite_company/
 
 ### 技術
 + CSS
