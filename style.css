@@ -152,7 +152,10 @@ header {
   padding-left: 20px;
   margin: 0;
 }
-.label {
+.news-list-title {
+  color: #333;
+}
+.news-list-label {
   margin-left: 10px;
   background-color: #66ccff;
   color: #fff;
